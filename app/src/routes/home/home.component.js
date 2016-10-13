@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Newsletter} from './newsletter/newsletter.component';
+
 
 export class Home extends Component {
   render() {
@@ -26,6 +28,10 @@ export class Home extends Component {
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.
           </div>
+        </section>
+
+        <section className="home__section">
+          <Newsletter/>
         </section>
       </div>
     );
